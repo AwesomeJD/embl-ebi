@@ -1,4 +1,4 @@
-FROM maven:3.5.2-jdk-8-alpine AS MAVEN_BUILD
+FROM maven:3.6.3-openjdk-11-slim AS MAVEN_BUILD
 
 COPY pom.xml /build/
 COPY src /build/src/
@@ -6,7 +6,7 @@ COPY src /build/src/
 WORKDIR /build/
 RUN mvn package
 
-FROM openjdk:12
+FROM openjdk:11-jdk
 
 WORKDIR /app
 
