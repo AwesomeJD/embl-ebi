@@ -18,7 +18,7 @@ The application is a spring-boot application.
     2. Then will build the image.
     3. Then will run the application on the port 8080
 
-The application postman collection can be found in the git repo. 
+The application postman collection can be found root directory. 
 
 The CRUD operations are available for the Person entity. 
 
