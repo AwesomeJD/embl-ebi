@@ -1,0 +1,84 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Person-manage",
+		"_postman_id": "c1e1835f-d89c-dd2c-101a-8541c1cbafa3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Person",
+			"request": {
+				"url": "http://localhost:8080/manage/person/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {  \n  \t\"firstName\" : \"JD\",\n    \"lastName\" :\"Sharma\",\n    \"age\": 20,\n\t\"favouriteColour\":\"\"\n  }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update person",
+			"request": {
+				"url": "http://localhost:8080/manage/person/",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {  \n  \t\"firstName\" : \"JD\",\n    \"lastName\" :\"Sharma\",\n    \"age\": 20,\n\t\"favouriteColour\":\"\"\n  }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Person by Id",
+			"request": {
+				"url": "http://localhost:8080/manage/person/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Person by Ids",
+			"request": {
+				"url": "http://localhost:8080/manage/person/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete person",
+			"request": {
+				"url": "http://localhost:8080/manage/person/2",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
