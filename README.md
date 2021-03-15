@@ -1,4 +1,9 @@
-#Get the solution running...
+
+
+# EMBL-EBI Assignment
+
+
+## Get the solution running...
 The application is a spring-boot application.
 
 ### Prerequisites:
