@@ -1,5 +1,5 @@
 # embl-ebi
-#Get the solution running...
+# Get the solution running...
 The application is a spring-boot application.
 
 ### Prerequisites:
